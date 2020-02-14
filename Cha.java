@@ -1,17 +1,17 @@
-//¶þ·Ö£¨ÕÛ°ë£©²éÕÒ·¨£ºÇ°ÌáÓÐÐòÅÅÁÐºÃÁË
+//äºŒåˆ†ï¼ˆæŠ˜åŠï¼‰æŸ¥æ‰¾æ³•ï¼šå‰ææœ‰åºæŽ’åˆ—å¥½äº†
 public class Cha {
 	public static void main(String[] args) {
 		int[] s ={0,1,2,3,4,5,6,7,8,9,10};
-		int g = 23;//Òª²éÕÒµÄÊý×Ö
-		int t = 0;//¶¨Òå¿ªÊ¼²éÕÒ·¶Î§µÄÏÂ±ê
-		int jie = s.length-1;//¶¨Òå½áÊø²éÕÒ·¶Î§µÄÏÂ±ê
-		int zhong = -1;//¶¨ÒåÖÐ¼äÎ»ÖÃµÄÏÂ±ê
-		boolean isFind = false;//±ê¼ÇÊÇ·ñÕÒµ½£¬false Ã»ÕÒµ½ £¬true ÕÒµ½ÁË
+		int g = 23;//è¦æŸ¥æ‰¾çš„æ•°å­—
+		int t = 0;//å®šä¹‰å¼€å§‹æŸ¥æ‰¾èŒƒå›´çš„ä¸‹æ ‡
+		int jie = s.length-1;//å®šä¹‰ç»“æŸæŸ¥æ‰¾èŒƒå›´çš„ä¸‹æ ‡
+		int zhong = -1;//å®šä¹‰ä¸­é—´ä½ç½®çš„ä¸‹æ ‡
+		boolean isFind = false;//æ ‡è®°æ˜¯å¦æ‰¾åˆ°ï¼Œfalse æ²¡æ‰¾åˆ° ï¼Œtrue æ‰¾åˆ°äº†
 		
 		do{
 			zhong = (t+jie)/2;
 			if(s[zhong]==g){
-				System.out.println("¹§Ï²ÄãÕÒµ½ÁË!ÏÂ±êÊÇ£º"+t);
+				System.out.println("æ­å–œä½ æ‰¾åˆ°äº†!ä¸‹æ ‡æ˜¯ï¼š"+t);
 				isFind = true;
 				break;
 			}else if (s[zhong]>g){
@@ -21,11 +21,11 @@ public class Cha {
 			}
 		}while(t<=jie);
 		if(!isFind){
-			System.out.println("±§Ç¸¸ÃÊý×ÖÃ»ÓÐÕÒµ½");
+			System.out.println("æŠ±æ­‰è¯¥æ•°å­—æ²¡æœ‰æ‰¾åˆ°");
 		}
 		
 
 		}
 	}
 
-//abcd
+//abcdä¿®æ”¹
